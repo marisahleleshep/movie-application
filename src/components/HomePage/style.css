@@ -1,56 +1,99 @@
-/* Navbar.css */
-.navbar {
-    /* background-color: #333; */
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .navbar-container {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1200px;
-    padding: 0 20px;
-  }
-  
-  .navbar-logo {
-    color: #fff;
-    font-size: 24px;
-    text-decoration: none;
-    /* margin-right: 20em; */
-  }
-  
-  .nav-menu {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .nav-item {
-    margin-left: 20px;
-  }
-  
-  .nav-links {
-    color: #fff;
-    text-decoration: none;
-    font-size: 20px;
-    /* height: 20%; */
-  }
+ .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-.button{
-    width: 35em;
-    margin-top: 50px;
-    height: 2.2em;
-    margin-right: 400px;
-    text-align: center;
-    font-size: 25px;
-     background-color: #333;
-     color: white;
-     border-radius: 5px;
+.logo {
+  font-size: 24px;
+  margin-left: 80px;
+  color: #ff9800;
 }
-.links{
-  width: 200px;
+
+/* .search {
+  display: flex;
+  align-items: center;
+} */
+
+.search input[type="text"] {
+  padding: 6px 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  margin-left: 100px;
 }
+
+.search button {
+  padding: 6px 10px;
+  font-size: 16px;
+  background-color:  #f1089b;
+  color: #fff;
+  border: none;
+  margin-left: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  margin-right: 20%;
+}
+
+.links li {
+  list-style: none;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.links a {
+  
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+.links button {
+  padding: 8px 20px;
+  margin-right: 20px;
+  font-size: 16px;
+  background-color: #f1089b;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+} 
+/* 
+Styles for search results 
+ .search-results {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.search-result {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.search-result img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.search-result h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.search-result p {
+  margin-top: 5px;
+  font-size: 14px;
+}  */
+
+
+

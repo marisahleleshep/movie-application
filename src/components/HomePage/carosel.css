@@ -1,35 +1,7 @@
-.carosel {
-    width: 100%;
-    max-width: 1000px;
-    margin: 0 auto;
-    /* height: 10%;  */
-    
-    }  
-    .all img {
-    width: 100%;
-    height: auto;
-    margin-top: 100px;
-    max-width: 500px;
-    
-  } 
-   .all p {
-    font-size: 20px;
-    color: #555;
-    margin: 5px 0;
-  } 
-   .all
-  .title {
-    font-size:30px;
-    font-weight: bold;
-    color: #333;
-  }
   img{
     display: flex;
     display: grid;
   }
-
-
-
   .search-results {
     margin-top: 20px;
     display: flex;
@@ -57,16 +29,111 @@
   .search-result p {
     font-size: 14px;
     margin-top: 10px;
-  } 
+  }  
 
-  /* Carosel */
-  .slider{
+  Carosel 
+   .slider{
     width: 100%;
     background-size: cover;
     background-position: center;
-    /* margin-left:2%; */
-    /* height: 900px; */
-    /* padding: 20px; */
   }
 
-  
+
+  /* Styles for the carousel container */
+.slider {
+  width: 80%; 
+  margin: 0 auto;  
+}
+
+/* Styles for each carousel item */
+ .slider-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  height: 500px; 
+  color: #333; 
+  font-size: 18px;
+}
+
+
+/* Carousels.css */
+
+.slider {
+  max-width: 800px; 
+  margin: 0 auto; 
+}
+
+.slider-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.slider-item .image-container {
+  width: 100%;
+  height: 200px; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.slider-item .title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.slider-item p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.slider-item button {
+  padding: 8px 16px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.slider-item button:first-child {
+  background-color: #007bff; 
+  color: #fff;
+}
+
+.slider-item button:last-child {
+  background-color: #28a745;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
