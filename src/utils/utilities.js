@@ -87,7 +87,8 @@ export const searchMovies = async (query) => {
     );
     const result = await response.json();
     return result;
-  } catch (error) {
+  } 
+  catch (error) {
     return error.message;
   }
 };  
@@ -118,7 +119,8 @@ export const getCategory = async () => {
     });
     const result = await response.json();
     return result;
-  } catch (error) {
+  } 
+  catch (error) {
     throw new Error(error.message);
   }
 };

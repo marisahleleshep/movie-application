@@ -26,7 +26,7 @@ const Footer = () => {
             <p></p>
         </div>
         <div>
-            <h1>Share WEbsite Via</h1>
+            <h1>Share Website Via</h1>
             <p>Home</p>
             <p>My List</p>
             <p>About Us</p>
